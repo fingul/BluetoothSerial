@@ -29,8 +29,17 @@
 #define ADAFRUIT_CHAR_RX_UUID                         "6E400002-B5A3-F393-E0A9-E50E24DCCA9E"
 
 // Laird Virtual Serial Port (vSP) service for BL600 http://www.lairdtech.com/DownloadAsset.aspx?id=2147489885
-#define LAIRD_SERVICE_UUID                       "569a1101-b87f-490c-92cb-11ba5ea5167c"
-#define LAIRD_CHAR_TX_UUID                       "569a2000-b87f-490c-92cb-11ba5ea5167c"
-#define LAIRD_CHAR_RX_UUID                       "569a2001-b87f-490c-92cb-11ba5ea5167c"
+//#define LAIRD_SERVICE_UUID                       "569a1101-b87f-490c-92cb-11ba5ea5167c"
+//#define LAIRD_CHAR_TX_UUID                       "569a2000-b87f-490c-92cb-11ba5ea5167c"
+//#define LAIRD_CHAR_RX_UUID                       "569a2001-b87f-490c-92cb-11ba5ea5167c"
+
+#define LAIRD_SERVICE_UUID                       "00005500-D102-11E1-9B23-3451AA000001"
+#define LAIRD_CHAR_TX_UUID                       "00005501-D102-11E1-9B23-3451AA000001"
+#define LAIRD_CHAR_RX_UUID                       "00005501-D102-11E1-9B23-3451AA000001"
+
+
+//	public static final UUID RX_SERVICE_UUID = UUID.fromString("00005500-D102-11E1-9B23-3451AA000001"); // O
+//	public static final UUID RX_CHAR_UUID = UUID.fromString("00005501-D102-11E1-9B23-3451AA000001"); // O
+//	public static final UUID TX_CHAR_UUID = UUID.fromString("00005501-D102-11E1-9B23-3451AA000001"); // O
 
 #define RBL_BLE_FRAMEWORK_VER                    0x0200
